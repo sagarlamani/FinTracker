@@ -1,8 +1,5 @@
 # 🎯 Smart Expense Categorizer with ML
 
-## 🌐 Live Demo
-**👉 [Try it now!](https://fintracker-production-7af6.up.railway.app/)**
-
 ## Overview
 An intelligent expense categorization system that uses Machine Learning and NLP to automatically categorize financial transactions, predict spending patterns, detect anomalies, and provide personalized budget recommendations.
 
@@ -146,7 +143,6 @@ The application automatically detects and works with various CSV formats:
 Deployed on Railway:
 - **Backend**: FastAPI on Railway
 - **Frontend**: Streamlit on Railway
-- **Live Demo**: [https://fintracker-production-7af6.up.railway.app/](https://fintracker-production-7af6.up.railway.app/)
 
 For deployment, connect your GitHub repo to Railway and set the start commands manually:
 - Backend: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
