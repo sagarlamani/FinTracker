@@ -4,83 +4,48 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
 venv/
+env/
 ENV/
 .venv
-*.egg-info/
-dist/
-build/
-
-# ML Models
-*.pkl
-*.h5
-*.hdf5
-*.joblib
-models/
-saved_models/
-
-# Data files (exclude sample files)
-*.csv
-*.xlsx
-*.xls
-data/
-!sample_transactions.csv
-!sample_transactions_us.csv
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*.sublime-project
-*.sublime-workspace
+*~
 
-# Environment
+# Environment variables
 .env
 .env.local
-.env.*.local
-
-# Logs
-*.log
-logs/
 
 # OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
-# Deployment
-.vercel/
+# Logs
+*.log
+
+# Railway
 .railway/
-.heroku/
-
-# Markdown files (exclude README.md and deployment docs)
-*.md
-!README.md
-!DEPLOY.md
-!QUICK_DEPLOY.md
-!DEPLOY_RAILWAY_BOTH.md
-!QUICK_DEPLOY_RAILWAY.md
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# Virtual Environment
-venv/
-env/
-ENV/
 
 # Streamlit
-.streamlit/secrets.toml
-
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-
-# Other projects (keep only this project)
-projects/
+.streamlit/
