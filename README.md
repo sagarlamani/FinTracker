@@ -127,10 +127,6 @@ The application automatically detects and works with various CSV formats:
 - **Currency Symbol**: Select from sidebar ($, ₹, €, £, ¥, or None)
 - **Test Connection**: Use the "🔌 Test Connection" button in sidebar
 
-## 📚 Documentation
-
-All documentation is included in this README. For questions or issues, please check the troubleshooting section below.
-
 ## 🐛 Troubleshooting
 
 **Issue**: Port already in use  
@@ -159,10 +155,6 @@ For deployment, connect your GitHub repo to Railway and set the start commands m
 ## 📝 License
 
 This project is open source and available for personal and educational use.
-
-## 👤 Author
-
-**NSsubhi**
 
 ---
 
